@@ -12,4 +12,7 @@ CMD odoo \
 --db_user=$DB_USER \
 --db_password=$DB_PASSWORD \
 --addons-path=/mnt/extra-addons \
---xmlrpc-port=8069
+--xmlrpc-port=8069 \
+-d odoo_cbv6 \
+-i base \
+--without-demo=all
