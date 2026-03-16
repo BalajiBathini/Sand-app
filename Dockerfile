@@ -14,4 +14,6 @@ CMD odoo \
 --addons-path=/mnt/extra-addons \
 --xmlrpc-port=$PORT \
 -d odoo_cbv6 \
+-i base \
+--without-demo=all
 
